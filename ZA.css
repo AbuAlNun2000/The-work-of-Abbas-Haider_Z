@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+form{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px; 
+    height: 350px;
+    position:absolute ;
+    text-align: center;
+    font-size: 1.7em;
+    box-sizing: border-box;
+    background: rgba(245, 253, 255, 0.74);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.input-box{
+    
+    width: 80%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size:  0.7em;
+}
+
+button{
+    height: 29px;
+    font-size: 0.6em;
+}
